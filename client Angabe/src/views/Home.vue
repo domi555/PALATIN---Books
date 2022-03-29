@@ -6,7 +6,7 @@
         <v-dialog v-model="dialogView" width="250px">
           <v-card max-width="250px">
             <img :src="imageURL" style="width: 100%; height: auto" />
-            <v-card-actions>
+            <v-card-actions class="mt-0">
               <v-spacer></v-spacer>
               <v-btn text @click="dialogView = false">Close</v-btn>
               <v-spacer></v-spacer>
